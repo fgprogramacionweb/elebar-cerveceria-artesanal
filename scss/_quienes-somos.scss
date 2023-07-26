@@ -1,0 +1,30 @@
+/* ------------------- PÁGINA QUIENES SOMOS ------------------- */
+
+.seccion-uno-quienes-somos{
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20rem 20rem 20rem;
+    align-items: center;
+    justify-items: center;
+    row-gap: 3rem;
+    column-gap: 1rem;
+    margin: 3rem 0;
+
+    & div{
+        padding: 1rem;
+    }
+}
+
+.imagenes-somos{
+    max-width: 20rem;
+}
+
+.somos-gris{
+    background-color: #dfdfdf;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+}

@@ -1,0 +1,454 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1, h2, h3, p, a, li, label, button {
+  font-family: 'Poppins', sans-serif; }
+
+h1, h2, h3 {
+  font-weight: 700 !important; }
+
+p {
+  margin-bottom: 0 !important; }
+
+/* ------------------- PÁGINA INICIO ------------------- */
+/* ENCABEZADO */
+.navbar-custom {
+  background-color: #000 !important;
+  border-bottom: 2px solid #b48108; }
+  .navbar-custom ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem; }
+    .navbar-custom ul li a:hover {
+      color: #E1A10B; }
+
+.navbar-collapse {
+  padding: 0rem 0rem 1rem 1rem; }
+
+.navbar-toggler {
+  color: #fff; }
+
+.navbar-toggler-icon {
+  background-image: url("../images/menu-mobile.png"); }
+
+.navbar-nav {
+  padding-left: 4rem; }
+
+.logo {
+  max-height: 10rem; }
+
+.boton {
+  outline: none;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  background-color: #b48108;
+  font-size: 1rem;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer; }
+  .boton:hover {
+    background-color: #E1A10B; }
+
+/* SECCION UNO */
+.seccion-uno {
+  background-image: url(../images/seccion-uno-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 7rem 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .seccion-uno h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem 0 0 0; }
+  .seccion-uno .slogan {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #fff;
+    padding: 1rem 0; }
+  .seccion-uno .direccion {
+    font-size: 1rem;
+    color: #fff;
+    padding: 2rem 0; }
+  .seccion-uno .separador-uno {
+    width: 15%; }
+
+.contenedor-uno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0000009c;
+  padding: 2rem;
+  width: 80%;
+  border-radius: 20px; }
+
+hr {
+  opacity: 1 !important;
+  margin: 0 !important; }
+
+.separador {
+  width: 30%;
+  border: none;
+  border-top: 5px solid #fff; }
+
+/* SECCION DOS */
+.seccion-dos {
+  display: flex;
+  padding: 5rem;
+  gap: 4rem;
+  align-items: center; }
+  .seccion-dos img {
+    max-width: 40rem; }
+  .seccion-dos h2 {
+    text-align: left; }
+
+.titulo-dos {
+  font-size: 2.2rem;
+  text-align: center;
+  padding-bottom: .5rem;
+  font-weight: 700 !important; }
+  .titulo-dos p {
+    font-size: 1rem;
+    padding: .2rem; }
+
+/* SECCION TRES */
+.seccion-tres {
+  text-align: center;
+  background-color: #242424;
+  padding: 4rem 0rem;
+  color: #fff; }
+  .seccion-tres .boton-espacio {
+    margin-top: 2rem;
+    font-weight: 600; }
+
+/* SECCION CUATRO */
+.seccion-cuatro {
+  padding: 4rem 0; }
+  .seccion-cuatro p {
+    text-align: center;
+    padding-bottom: .5rem; }
+  .seccion-cuatro .container-reservas {
+    display: flex;
+    justify-content: space-evenly; }
+    .seccion-cuatro .container-reservas h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      padding-bottom: 1rem; }
+    .seccion-cuatro .container-reservas .reserva-whatsapp {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+    .seccion-cuatro .container-reservas img {
+      max-width: 10rem; }
+    .seccion-cuatro .container-reservas label {
+      font-size: 1.1rem;
+      padding-right: .5rem; }
+    .seccion-cuatro .container-reservas input {
+      padding: .1rem;
+      font-size: 1rem; }
+    .seccion-cuatro .container-reservas form div {
+      padding: .5rem 0; }
+    .seccion-cuatro .container-reservas form button {
+      margin: .5rem 0rem;
+      width: 40%; }
+      .seccion-cuatro .container-reservas form button:hover {
+        color: #fff; }
+
+/* SECCION CINCO */
+.seccion-cinco {
+  background-color: #242424;
+  padding: 4rem 0; }
+  .seccion-cinco h2 {
+    color: #fff; }
+  .seccion-cinco img {
+    max-height: 18rem; }
+
+.container-shows {
+  display: flex;
+  justify-content: center;
+  gap: 4rem; }
+
+.show-elebar {
+  border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: .5rem;
+  color: #fff;
+  background-color: #000;
+  margin-top: 1rem; }
+  .show-elebar h3 {
+    font-weight: 600; }
+  .show-elebar p {
+    font-size: .9rem; }
+
+.boton-comprar {
+  border-radius: 0px;
+  margin-top: .5rem; }
+
+/* FOOTER */
+.footer {
+  padding: 1rem 0rem 0rem 0rem;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem; }
+
+.container-redes {
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  padding-bottom: 1rem; }
+  .container-redes i {
+    font-size: 2rem;
+    padding-bottom: .5rem;
+    cursor: pointer;
+    color: #E1A10B; }
+
+.copy {
+  border-top: 1px solid #fff;
+  font-size: .9rem;
+  background-color: #000;
+  width: 100%;
+  text-align: center;
+  padding: .5rem; }
+
+/* ------------------- PÁGINA FRANQUICIAS ------------------- */
+/* SECCION UNO */
+.seccion-uno-franquicias {
+  background-image: url("../images/franquicias-bg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 5rem; }
+  .seccion-uno-franquicias h1 {
+    text-align: left;
+    color: #fff;
+    font-size: 3rem; }
+  .seccion-uno-franquicias p {
+    width: 80%;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 1.7; }
+
+/* SECCION DOS */
+.seccion-dos-franquicias {
+  display: flex;
+  padding: 4rem 5rem;
+  align-items: center;
+  gap: 4rem; }
+  .seccion-dos-franquicias img {
+    max-width: 20rem; }
+  .seccion-dos-franquicias h2 {
+    text-align: left;
+    line-height: 1.2; }
+
+.identidad-container {
+  display: flex;
+  padding: 2rem 0;
+  gap: 4rem; }
+
+.identidad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: .5rem;
+  width: 30%; }
+  .identidad i {
+    font-size: 2rem; }
+  .identidad h3 {
+    font-size: 1.2rem;
+    font-weight: 600; }
+
+/* SECCION TRES */
+.seccion-tres-franquicias {
+  background-color: #b48108;
+  padding: 4rem 5rem; }
+  .seccion-tres-franquicias h2 {
+    line-height: 1.2;
+    padding: 1.3rem 0; }
+  .seccion-tres-franquicias p {
+    text-align: center;
+    font-size: 1.2rem; }
+  .seccion-tres-franquicias img {
+    max-width: 20rem; }
+
+.container-textos-franquicias p {
+  font-weight: 600; }
+
+.container-textoimg-franquicias {
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  gap: 4rem; }
+
+.seccion-cuatro-franquicias {
+  background-image: url("../images/seccion-cuatro-franquicias-bg.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 12rem 4rem; }
+  .seccion-cuatro-franquicias h2 {
+    color: #fff;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px #000; }
+
+.boton-dossier {
+  padding: 1rem;
+  border: 1px solid #000; }
+  .boton-dossier:hover {
+    background-color: #000; }
+
+/* ------------------- PÁGINA CONTACTO ------------------- */
+.seccion-uno-contacto {
+  display: flex;
+  padding: 5rem;
+  gap: 2rem; }
+  .seccion-uno-contacto form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: .7rem;
+    border: 1px solid black;
+    padding: 2rem 1rem;
+    background-color: #dfdfdf; }
+    .seccion-uno-contacto form input {
+      width: 50%;
+      padding: .3rem; }
+    .seccion-uno-contacto form label {
+      margin-right: .5rem; }
+    .seccion-uno-contacto form textarea {
+      width: 90%;
+      height: 5rem; }
+
+.seccion-uno-contacto-textos {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem; }
+  .seccion-uno-contacto-textos h2 {
+    color: #b48108; }
+
+/* ------------------- PÁGINA QUIENES SOMOS ------------------- */
+.seccion-uno-quienes-somos {
+  padding: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20rem 20rem 20rem;
+  align-items: center;
+  justify-items: center;
+  row-gap: 3rem;
+  column-gap: 1rem;
+  margin: 3rem 0; }
+  .seccion-uno-quienes-somos div {
+    padding: 1rem; }
+
+.imagenes-somos {
+  max-width: 20rem; }
+
+.somos-gris {
+  background-color: #dfdfdf;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem; }
+
+/* ----------------------------------- MEDIA QUERIES ----------------------------------- */
+@media only screen and (max-width: 600px) {
+  .navbar-nav {
+    padding-left: 0rem; }
+  .encabezado {
+    flex-direction: column;
+    padding: 0rem 0rem 2rem 0; }
+  .nav-menu {
+    flex-direction: column;
+    gap: 1rem; }
+  .seccion-uno h1 {
+    font-size: 2.5rem; }
+  .slogan {
+    font-size: 1.5rem; }
+  .contenedor-uno {
+    width: auto; }
+  .seccion-uno {
+    background-position: top; }
+  .seccion-dos {
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 0.1rem; }
+    .seccion-dos img {
+      max-width: 20rem; }
+  .seccion-tres {
+    padding: 3rem 2rem; }
+  .titulo-dos {
+    font-size: 2rem; }
+  .seccion-cuatro {
+    padding: 3rem 2rem; }
+  .container-reservas {
+    flex-direction: column;
+    gap: 2rem; }
+    .container-reservas img {
+      max-width: 6rem; }
+  .seccion-cinco {
+    padding: 3rem 2rem; }
+  .container-shows {
+    flex-direction: column;
+    gap: 2rem; }
+  .container-redes {
+    flex-direction: column; }
+  .seccion-uno-franquicias {
+    padding: 3rem 2rem; }
+    .seccion-uno-franquicias h1 {
+      font-size: 2.5rem; }
+    .seccion-uno-franquicias p {
+      font-size: 1rem; }
+  .seccion-dos-franquicias {
+    padding: 3rem 2rem;
+    flex-direction: column; }
+  .identidad-container {
+    flex-direction: column;
+    align-items: center; }
+  .identidad {
+    width: auto; }
+  .seccion-tres-franquicias {
+    padding: 3rem 2rem; }
+    .seccion-tres-franquicias h2 {
+      font-size: 1.5rem; }
+    .seccion-tres-franquicias p {
+      font-size: 1rem; }
+  .container-textos-franquicias p {
+    font-size: 1rem; }
+  .container-textoimg-franquicias {
+    flex-direction: column-reverse; }
+  .seccion-cuatro-franquicias {
+    padding: 3rem 2rem; }
+    .seccion-cuatro-franquicias h2 {
+      font-size: 2rem; }
+  .boton-dossier {
+    padding: 0.5rem 1rem; }
+  .seccion-uno-contacto {
+    padding: 3rem 2rem;
+    flex-direction: column; }
+    .seccion-uno-contacto form {
+      width: auto; }
+  .seccion-uno-contacto-textos {
+    width: auto; }
+  .seccion-uno-quienes-somos {
+    padding: 3rem 2rem;
+    grid-template-columns: 90%;
+    grid-template-rows: auto;
+    justify-content: center;
+    row-gap: 1rem; } }

@@ -1,0 +1,292 @@
+/* ------------------- PÁGINA INICIO ------------------- */
+
+/* ENCABEZADO */
+
+.navbar-custom{
+    background-color: $colorNegro !important;
+    border-bottom: 2px solid $colorSecundario;
+
+    & ul li a{
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1rem;
+
+        &:hover{
+            color: $colorPrincipal;
+        }
+    }
+}
+
+.navbar-collapse{
+    padding: 0rem 0rem 1rem 1rem;
+}
+.navbar-toggler{
+    color: $colorBlanco;
+}
+
+.navbar-toggler-icon{
+    background-image: url("../images/menu-mobile.png");
+}
+
+.navbar-nav{
+    padding-left: 4rem;
+}
+
+.logo{
+    max-height: 10rem;
+}
+
+.boton{
+    outline: none;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    background-color: $colorSecundario;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: $colorBlanco;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $colorPrincipal;
+    }
+}
+
+/* SECCION UNO */
+
+.seccion-uno{
+    background-image: url(../images/seccion-uno-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7rem 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & h1{
+        font-size: 4rem;
+        font-weight: bold;
+        color: $colorBlanco;
+        padding: 1rem 0 0 0;
+    }
+
+    & .slogan{
+        font-size: 2rem;
+        font-weight: 600;
+        color: $colorBlanco;
+        padding: 1rem 0;
+    }
+
+    & .direccion{
+        font-size: 1rem;
+        color: $colorBlanco;
+        padding: 2rem 0;
+    }
+    
+    & .separador-uno{
+        width: 15%;
+    }
+}
+
+.contenedor-uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0000009c;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 20px;
+}
+
+hr{
+    opacity: 1 !important;
+    margin: 0 !important;
+}
+
+
+.separador{
+    width: 30%;
+    border: none;
+    border-top: 5px solid $colorBlanco;
+}
+
+/* SECCION DOS */
+
+.seccion-dos{
+    display: flex;
+    padding: 5rem;
+    gap: 4rem;
+    align-items: center;
+
+    & img{
+        max-width: 40rem;
+    }
+
+    & h2{
+        text-align: left;
+    }
+}
+
+.titulo-dos{
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: .5rem;
+    font-weight: 700 !important;
+
+    & p{
+        font-size: 1rem;
+        padding: .2rem;
+    }
+}
+
+/* SECCION TRES */
+
+.seccion-tres{
+    text-align: center;
+    background-color: #242424;
+    padding: 4rem 0rem;
+    color: $colorBlanco;
+
+    & .boton-espacio{
+        margin-top: 2rem;
+        font-weight: 600;
+    }
+}
+
+/* SECCION CUATRO */
+
+.seccion-cuatro{
+    padding: 4rem 0;
+
+    & p{
+        text-align: center;
+        padding-bottom: .5rem;
+    }
+
+    & .container-reservas{
+        display: flex;
+        justify-content: space-evenly;
+
+        & h3{
+            font-size: 1.2rem;
+            font-weight: 600;
+            padding-bottom: 1rem;
+        }
+
+        & .reserva-whatsapp{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        & img{
+            max-width: 10rem;
+        }
+        
+        & label{
+            font-size: 1.1rem;
+            padding-right: .5rem;
+        }
+
+        & input{
+            padding: .1rem;
+            font-size: 1rem;
+        }
+
+        & form div{
+            padding: .5rem 0;
+        }
+
+        & form button{
+            margin: .5rem 0rem;
+            width: 40%;
+
+            &:hover{
+                color: $colorBlanco;
+            }
+        }
+     
+    }
+}
+
+/* SECCION CINCO */
+
+.seccion-cinco{
+    background-color: #242424;
+    padding: 4rem 0;
+
+    & h2{
+        color: $colorBlanco;
+    }
+
+    & img{
+        max-height: 18rem;
+    }    
+}
+
+.container-shows{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.show-elebar{
+    border: 1px solid $colorNegro;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .5rem;
+    color: $colorBlanco;
+    background-color: $colorNegro;
+    margin-top: 1rem;
+
+    & h3{
+        font-weight: 600;
+    }
+
+    p{
+        font-size: .9rem;
+    }
+}
+
+.boton-comprar{
+    border-radius: 0px;
+    margin-top: .5rem;
+}
+
+/* FOOTER */
+
+.footer{
+    padding: 1rem 0rem 0rem 0rem;
+    background-color: $colorNegro;
+    color: $colorBlanco;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+}
+
+.container-redes{
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+    padding-bottom: 1rem;
+
+    & i{
+        font-size: 2rem;
+        padding-bottom: .5rem;
+        cursor: pointer;
+        color: $colorPrincipal;
+    }
+}
+
+.copy{
+    border-top: 1px solid $colorBlanco;
+    font-size: .9rem;
+    background-color: $colorNegro;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+}

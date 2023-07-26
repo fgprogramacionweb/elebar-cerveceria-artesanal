@@ -1,0 +1,123 @@
+/* ------------------- PÁGINA FRANQUICIAS ------------------- */
+
+/* SECCION UNO */
+
+.seccion-uno-franquicias{
+    background-image: url("../images/franquicias-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10rem 5rem;
+    
+    & h1{
+        text-align: left;
+        color: $colorBlanco;
+        font-size: 3rem;
+    }
+
+    & p{
+        width: 80%;
+        color: $colorBlanco;
+        font-size: 1.2rem;
+        line-height: 1.7;
+    }
+}
+
+/* SECCION DOS */
+
+ .seccion-dos-franquicias{
+    display: flex;
+    padding: 4rem 5rem;
+    align-items: center;
+    gap: 4rem;
+
+    & img{
+        max-width: 20rem;
+    }
+
+    & h2{
+        text-align: left;
+        line-height: 1.2;
+    }
+}
+
+.identidad-container{
+    display: flex;
+    padding: 2rem 0;
+    gap: 4rem;
+}
+
+.identidad{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+    width: 30%;
+
+    & i{
+        font-size: 2rem;
+    }
+
+    & h3{
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}
+
+
+/* SECCION TRES */
+
+.seccion-tres-franquicias{
+    background-color: $colorSecundario;
+    padding: 4rem 5rem;
+
+    & h2{
+        line-height: 1.2;
+        padding: 1.3rem 0;
+    }
+
+    & p{
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+    & img{
+        max-width: 20rem;
+    }
+}
+
+.container-textos-franquicias p{
+    font-weight: 600;
+}
+
+.container-textoimg-franquicias{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 4rem;
+}
+
+.seccion-cuatro-franquicias{
+    background-image: url("../images/seccion-cuatro-franquicias-bg.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 12rem 4rem;
+
+    & h2{
+        color: $colorBlanco;
+        font-size: 3rem;
+        text-shadow: 2px 2px 2px $colorNegro;
+    }
+}
+
+.boton-dossier{
+    padding: 1rem;
+    border: 1px solid $colorNegro;
+
+    &:hover{
+        background-color: $colorNegro;
+    }
+}
